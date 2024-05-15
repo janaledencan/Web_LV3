@@ -1,12 +1,10 @@
 /* CSS variables */
 :root {
-    --primary-color: #007bff;
     --secondary-color: #6c757d;
-
-    --blue-color: #4793AF;
-    --orange-color: #DD5746;
+    --blue-color: #38778E;
+    --green-color: #6D7438;
     --yellow-color: #FFC470;
-    --brown-color: #8B322C;
+    --brown-color: #BD493B;
     --font-size-base: 16px;
     --font-family-base: Arial, sans-serif;
 }
@@ -34,7 +32,7 @@ h1 {
 }
 
 .title2 {
-    color: var(--orange-color);
+    color: var(--brown-color);
 }
 
 h2 {
@@ -69,7 +67,7 @@ img {
 }
 
 .sort-button {
-    background-color: var(--orange-color);
+    background-color: var(--green-color);
 }
 
 /* Items grid styles */
@@ -182,7 +180,6 @@ img {
 .item {
     margin: 2% 10%;
     background-color: var(--yellow-color);
-    /*width: 250px;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
